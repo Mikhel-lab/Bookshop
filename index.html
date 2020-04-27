@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eLibrary App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href=css/home.css>
+    <link rel="stylesheet" href="css/layout.css">
+    
+</head>
+
+<body>
+    
+    <header class="fixed-top">
+        <div class="header-content fixed-top">
+            <span id="login-icon"><i class="fa fa-sign-in"></i></span>
+            <span id="new-user"><i class="fa fa-lock" aria-hidden="true"></i></span>
+            <span id="login"><a href="Login.html" class="register">Login</a></span>
+            <span id="sign-up"><a href="SingUp.html" class="register">Sign Up</a></span>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-331832expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1>Codebits eLibrary</h1>
+            <div class="nav-data collapse navbar-collapse" id="navbarText" style='margin-left:20px'>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categories
+                        </a>
+                     
+                    <input id="username" class="d-none" value="">
+                    <input id="userid" class="d-none" value="">
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <input id='username' class='d-none' value=''>
+<div class="container-fluid" style="padding-top:120px;" >
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="image/carousel-1.jpeg" alt="ham" style="width:100%;">
+                <div class="carousel-caption text-left">
+                    <h3 class="policy-heading">Increase Your Knowing</h3>
+                </div>
+            </div>
+          
+            </div>
+           
+            
+<div class="book-content" style="padding: 0px 170px 20px 170px;">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568015812/btcsc29knijbf46vkxp7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name"> Sherlock Holmes </h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;400<br>
+                            <button class="cartbtn btn store"value="5d7605c50b005a1e0973e22f"id = "add">Add Book</button><a class="details" href="details1.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568016141/qsn6mygxxcb0xzc23fpe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">the kite runner</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;4,000.00<br>
+                            <button class="cartbtn btn store"value="5d76070e0b005a1e0973e230"id = "add">Add Book</button><a class="details" href="details2.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568016458/wohoeogst1g45myy7ov8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Girl in Room 105  </h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;3,500.00<br>
+                            <button class="cartbtn btn store"value="5d76084ac98a5122f1feac3b"id = "add">Add Book</button><a class="details" href="details3.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568016699/tvyudu6jdltbnhkzelmw.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Kanch Ke Shamiyane</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;2,500.00<br>
+                            <button class="cartbtn btn store"value="5d76093cc98a5122f1feac3c"id = "add">Add Book</button><a class="details" href="details4.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568016922/qf91iikrog5lqrhxl5d8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Book Theif</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;1,700.00<br>
+                            <button class="cartbtn btn store"value="5d760a1ac98a5122f1feac3d"id = "add">Add Book</button><a class="details" href="details5.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568017105/dsr9zlewelx8keqajeg8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">All the light we cannot see</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;1200<br>
+                            <button class="cartbtn btn store"value="5d760ad2c98a5122f1feac3e"id = "add">Add Book</button><a class="details" href="details6.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568017540/hsnlvqznberwsym6usof.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Wings of Fire</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;2000.00<br>
+                            <button class="cartbtn btn store"value="5d760c84c98a5122f1feac40"id = "add">Add Book</button><a class="details" href="details7.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568018666/rkko0wjd05xcs3my3l7r.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Shall We Tell the President?</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;2000.00<br>
+                            <button class="cartbtn btn store"value="5d7610eaee45832695983547"id = "add">Add Book</button><a class="details" href="details8.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568018896/nlolcygfklk14zgbbfvh.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Crystal Magic</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;200<br>
+                            <button class="cartbtn btn store"value="5d7611d0ee45832695983548"id = "add">Add Book</button><a class="details" href="details9.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568021213/pdfapq7mm4aov0x5tlcj.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Believe in Yourself</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;125<br>
+                            <button class="cartbtn btn store"value="5d761addee4583269598354a"id = "add">Add Book</button><a class="details" href="deatils10.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568021429/omhx9fmtxrumbqjagf39.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">You are My Reason to Smile </h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;175<br>
+                            <button class="cartbtn btn store"value="5d761bb5ee4583269598354b"id = "add">Add Book</button><a class="details" href="details11.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568021586/lsld0ezsljw6dicytwu5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Half GirlFriend</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;195<br>
+                            <button class="cartbtn btn store"value="5d761c53ee4583269598354c"id = "add">Add Book</button><a class="details" href="details12.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568037765/fe4w1xqs7gm80fdf659v.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Secret Garden</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;175<br>
+                            <button class="cartbtn btn store"value="5d765b857e6caf56b1bdeb8a"id = "add">Add Book</button><a class="details" href="details13.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568038262/vajlsyyjmnzbri1lptwt.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Brain in a Jar</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;295<br>
+                            <button class="cartbtn btn store"value="5d765d7627342657ea352391"id = "add">Add Book</button><a class="details" href="details14.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568038566/w19ddhxqqhlqzpqidznp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Son of Bhrigu</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;339<br>
+                            <button class="cartbtn btn store"value="5d765ea6abfc895998578899"id = "add">Add Book</button><a class="details" href="details15.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568038681/oxt2zttvaoyl64lrhp2w.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Spring in Action</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;849<br>
+                            <button class="cartbtn btn store"value="5d765f1aabfc89599857889a"id = "add">Add Book</button><a class="details" href="details16.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568039038/zmjsprlonwgeezsv7n9k.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Protocol</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;1908<br>
+                            <button class="cartbtn btn store"value="5d76607f4f56165afbf49d7e"id = "add">Add Book</button><a class="details" href="details17.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568039750/fdlpfzwvhpvejyyzaqqi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Freedom Broker</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;918<br>
+                            <button class="cartbtn btn store"value="5d7663468e65925b4c5eb628"id = "add">Add Book</button><a class="details" href="details18.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568040216/lancjn7bwzlsiumzsgov.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">The Text</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;150<br>
+                            <button class="cartbtn btn store"value="5d7665188e65925b4c5eb629"id = "add">Add Book</button><a class="details" href="details19.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568042799/dvz8xxnckircn48yuthb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Savarkar</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;720<br>
+                            <button class="cartbtn btn store"value="5d766f30e3074b630a7ce2bf"id = "add">Add Book</button><a class="details" href="details20.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568042964/feiqhufeu5wpthz3rg9r.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Law of Attraction</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;700<br>
+                            <button class="cartbtn btn store"value="5d766fd4e3074b630a7ce2c0"id = "add">Add Book</button><a class="details" href="details21.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568043046/ja9pnkokpkhotkn1hzix.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Human Action</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;1120<br>
+                            <button class="cartbtn btn store"value="5d767026e3074b630a7ce2c1"id = "add">Add Book</button><a class="details" href="details22.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568043129/d4gboqhwcpmkw7p4c4yh.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Critical Affair</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;590<br>
+                            <button class="cartbtn btn store"value="5d76707ae3074b630a7ce2c2"id = "add">Add Book</button><a class="details" href="details23.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+      
+      
+        <div class="col-md-4">
+            <div class="card" style="width:230px;height:345px">
+                <img style="width:228px;height:230px" src="https://res.cloudinary.com/ddr0gfrzp/image/upload/v1568093632/blax9zu5ohkny7ai8yxn.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="book-name">Heldi</h6>
+                    <span>
+                        <p class="para"><span style="color:grey">price: </span>&#8358;199<br>
+                            <button class="cartbtn btn store"value="5d7735c07549381006a00997" id = "add">Add Book</button><a class="details" href="details52.html">Details</a></p>
+                    </span>
+                </div>
+            </div>
+        </div><br><br><br>
+        
+<form id="book-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="textTitle" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="textAuthor" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="isbn">ISBN</label>
+                    <input type="text" id="textIsbn" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text" id="textPrice" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="pages">Pages</label>
+                    <input type="text" id="textPages" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="textCountry" class="form-control">
+                </div>
+            </div>
+            <input type="submit" id="addbook" value="Add Book" class="btn btn-success btn-block">                    
+        </div>
+</form>
+   
+
+
+    <script src="layout.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
